@@ -1,0 +1,6 @@
+#!/bin/bash
+#SBATCH -J “hellompi”
+#SBATCH -N 8
+#SBATCH --ntasks-per-node=24
+#SBATCH -t 1:00:00
+git clone --recursive https://github.com/nufeb/NUFEB.git
